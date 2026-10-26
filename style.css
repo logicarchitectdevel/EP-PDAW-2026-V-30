@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #5D4B8E;
+    --accent-color: #6C5CE7;
+    --text-dark: #1E232A;
+    --text-muted: #5A6578;
+    --orange-badge: #D97736;
+    --bg-warm: #FFE9A7;
+    --footer-dark: #1A1829;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-dark);
+    background-color: var(--bg-warm);
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-bar {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-size: 13px;
+    padding: 14px 0;
+    font-weight: 600;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info span {
+    margin-right: 24px;
+}
