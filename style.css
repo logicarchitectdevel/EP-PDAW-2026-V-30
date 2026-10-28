@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 40px;
 }
@@ -153,11 +153,12 @@ ul {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 64px;
+    gap: 250px;
 }
 
 .hero-text-container {
-    flex: 1;
+    flex: 1,1;
+    margin-top: -30px;
 }
 
 .main-title {
@@ -198,7 +199,7 @@ ul {
 }
 
 .hero-image-container {
-    flex: 1;
+    flex: 1,4;
 }
 
 .image-wrapper {
@@ -207,13 +208,14 @@ ul {
 
 .hero-image {
     width: 100%;
-    border-radius: 35px 35px 35px 100px;
+    border-radius: 40px 40px 40px 100px;
 }
 
 .promo-badge {
     position: absolute;
     top: -24px;
     right: -24px;
+    left: auto;
     background-color: var(--orange-badge);
     color: #ffffff;
     width: 104px;
