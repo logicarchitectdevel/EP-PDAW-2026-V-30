@@ -513,4 +513,37 @@ ul {
     font-size: 13px;
     display: inline-block;
     border-left: 3px solid var(--primary-color);
+}.newsletter-bar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 40px 0;
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 12px;
+}
+
+.news-input {
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    width: 260px;
+}
+
+.news-btn {
+    background: #D97736;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
 }
