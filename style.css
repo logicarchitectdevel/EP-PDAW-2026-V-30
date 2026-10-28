@@ -279,3 +279,27 @@ ul {
     font-size: 14px;
     color: var(--text-muted);
 }
+
+.advantages-section {
+    padding: 100px 0;
+    background-color: var(--bg-warm);
+}
+
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.advantage-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.advantage-icon-container img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
