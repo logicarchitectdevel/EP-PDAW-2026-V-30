@@ -475,3 +475,42 @@ ul {
     object-fit: cover;
     border-radius: 12px;
 }
+.schedule-table-wrapper {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    overflow-x: auto;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.schedule-table th {
+    background: #111;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.schedule-table td {
+    padding: 16px 8px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.time-col {
+    font-weight: 700;
+}
+
+.table-badge {
+    background: #F1EFF9;
+    color: var(--primary-color);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    border-left: 3px solid var(--primary-color);
+}
